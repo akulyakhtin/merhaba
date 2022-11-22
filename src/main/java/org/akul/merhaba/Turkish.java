@@ -6,8 +6,6 @@ import org.akul.merhaba.plural.Plural;
 
 public class Turkish {
 
-    private static final Plural PLURAL = new Plural();
-
     public static String minorVowelHarmony(String s) {
         return MinorVowelHarmony.INSTANCE.harmonize(s);
     }
@@ -17,6 +15,6 @@ public class Turkish {
     }
 
     public static String pluralOf(String s) {
-        return PLURAL.of(s);
+        return Plural.INSTANCE.of(s);
     }
 }
