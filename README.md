@@ -6,6 +6,6 @@
     }
 
     @Test
-    public void testPLural() {
+    public void testPlural() {
         assertEquals("arkadaşlar", pluralOf("arkadaş"));
     }
