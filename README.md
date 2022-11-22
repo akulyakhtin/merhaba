@@ -9,3 +9,8 @@
     public void testPlural() {
         assertEquals("arkadaşlar", pluralOf("arkadaş"));
     }
+
+    @Test
+    public void testMyHouses() {
+        assertEquals("evlerim", my(pluralOf("ev")));
+    }
