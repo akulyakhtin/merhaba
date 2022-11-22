@@ -6,11 +6,11 @@ import static org.akul.merhaba.Turkish.my;
 import static org.akul.merhaba.Turkish.your1;
 import static org.junit.Assert.assertEquals;
 
-public class PersonalAffixesTest {
+public class PersonalPossessiveEndingsTest {
 
     @Test
     public void testMy() {
-        assertEquals("adım", my("ad"));
+        assertEquals("kitabım", my("kitap"));
     }
 
     @Test
