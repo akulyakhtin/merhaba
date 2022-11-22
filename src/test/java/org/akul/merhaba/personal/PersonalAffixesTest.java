@@ -15,11 +15,13 @@ public class PersonalAffixesTest {
 
     @Test
     public void testMyEndsWithVowel() {
+        assertEquals("adım", my("ad"));
         assertEquals("iyiyim", my("iyi"));
     }
 
     @Test
     public void testYour() {
         assertEquals("adın", your1("ad"));
+        assertEquals("iyiyin", your1("iyi"));
     }
 }
