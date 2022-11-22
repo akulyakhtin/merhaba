@@ -11,12 +11,9 @@ public class PersonalPossessiveEndingsTest {
     @Test
     public void testMy() {
         assertEquals("kitabım", my("kitap"));
-    }
-
-    @Test
-    public void testMyEndsWithVowel() {
-        assertEquals("adım", my("ad"));
-        assertEquals("iyiyim", my("iyi"));
+        assertEquals("örümceğim", my("örümcek"));
+        assertEquals("kapım", my("kapı"));
+        assertEquals("şapkam", my("şapka"));
     }
 
     @Test
