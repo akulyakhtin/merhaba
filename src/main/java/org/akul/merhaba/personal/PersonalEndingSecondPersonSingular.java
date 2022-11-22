@@ -1,9 +1,16 @@
 package org.akul.merhaba.personal;
 
-public class PersonalEndingSecondPersonSingular extends PersonalPossessiveEndingFirstOrSecondSingular {
+import org.akul.merhaba.harmony.MajorVowelHarmony;
+
+public class PersonalEndingSecondPersonSingular extends PersonalPossessiveEnding {
     public static final PersonalEndingSecondPersonSingular INSTANCE = new PersonalEndingSecondPersonSingular();
 
-    protected String getAffix() {
+    @Override
+    protected String getAffixAfterVowel() {
         return "n";
+    }
+
+    protected String getAffixAfterConsonant() {
+        return MajorVowelHarmony.SYMBOL + "n";
     }
 }
