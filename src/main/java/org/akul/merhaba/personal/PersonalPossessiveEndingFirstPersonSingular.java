@@ -1,6 +1,6 @@
 package org.akul.merhaba.personal;
 
-public class PersonalPossessiveEndingFirstPersonSingular extends PersonalPossessiveEnding {
+public class PersonalPossessiveEndingFirstPersonSingular extends PersonalPossessiveEndingFirstOrSecondSingular {
     public static final PersonalPossessiveEndingFirstPersonSingular INSTANCE = new PersonalPossessiveEndingFirstPersonSingular();
 
     protected String getAffix() {

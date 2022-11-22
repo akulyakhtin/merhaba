@@ -19,4 +19,11 @@ public class Consonants {
                 return String.valueOf(ch);
         }
     }
+
+    public static String addVoiceToK(char ch) {
+        if (ch == 'k') {
+            return "ğ";
+        }
+        return String.valueOf(ch);
+    }
 }

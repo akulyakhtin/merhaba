@@ -2,8 +2,7 @@ package org.akul.merhaba.personal;
 
 import org.junit.Test;
 
-import static org.akul.merhaba.Turkish.my;
-import static org.akul.merhaba.Turkish.your1;
+import static org.akul.merhaba.Turkish.*;
 import static org.junit.Assert.assertEquals;
 
 public class PersonalPossessiveEndingsTest {
@@ -22,5 +21,14 @@ public class PersonalPossessiveEndingsTest {
         assertEquals("fıncanın", your1("fıncan"));
         assertEquals("kedin", your1("kedi"));
         assertEquals("araban", your1("araba"));
+    }
+
+    @Test
+    public void testHis() {
+        assertEquals("bisikleti", his("bisiklet"));
+        assertEquals("gözlüğü", his("gözlük"));
+        assertEquals("havlusu", his("havlu"));
+        assertEquals("çerçevisi", his("çerçevi"));
+        assertEquals("kaynaması", his("kaynama"));
     }
 }
