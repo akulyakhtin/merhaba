@@ -6,7 +6,7 @@ import org.akul.merhaba.alphabet.Consonants;
 import org.akul.merhaba.alphabet.Vowels;
 import org.akul.merhaba.harmony.MajorVowelHarmony;
 
-abstract public class PersonalPosessiveEnding {
+abstract public class PersonalEnding {
 
     private static final AccusativeCaseSuffix accusativeCaseSuffix = new AccusativeCaseSuffix();
     private static final PossessivePersonalPronounSuffix possessiveSuffix = new PossessivePersonalPronounSuffix();
