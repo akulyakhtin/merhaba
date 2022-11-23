@@ -1,7 +1,6 @@
 package org.akul.merhaba.personal;
 
 import org.akul.merhaba.affixes.AccusativeCaseSuffix;
-import org.akul.merhaba.affixes.PossessivePersonalPronounSuffix;
 import org.akul.merhaba.alphabet.Consonants;
 import org.akul.merhaba.alphabet.Vowels;
 import org.akul.merhaba.harmony.MajorVowelHarmony;
@@ -9,12 +8,11 @@ import org.akul.merhaba.harmony.MajorVowelHarmony;
 abstract public class PersonalEnding {
 
     private static final AccusativeCaseSuffix accusativeCaseSuffix = new AccusativeCaseSuffix();
-    private static final PossessivePersonalPronounSuffix possessiveSuffix = new PossessivePersonalPronounSuffix();
 
     public String forPossessive(String word, PossessivePersonalPronouns person) {
 
         String accSuff = accusativeCaseSuffix.forWord(word);
-        String posSuf = possessiveSuffix.forPersonalPronoun(person);
+        String posSuf = person.suffix();
 
         String suff = "";
         if (Vowels.endsWithVowel(word)) {
