@@ -2,6 +2,7 @@ package org.akul.merhaba;
 
 import org.akul.merhaba.harmony.MajorVowelHarmony;
 import org.akul.merhaba.harmony.MinorVowelHarmony;
+import org.akul.merhaba.personal.PersonalEndingFirstPersonPlural;
 import org.akul.merhaba.personal.PersonalEndingSecondPersonSingular;
 import org.akul.merhaba.personal.PersonalEndingThirdPersonSingular;
 import org.akul.merhaba.personal.PersonalPossessiveEndingFirstPersonSingular;
@@ -31,5 +32,9 @@ public class Turkish {
 
     public static String his(String s) {
         return PersonalEndingThirdPersonSingular.INSTANCE.applyTo(s);
+    }
+
+    public static String our(String s) {
+        return PersonalEndingFirstPersonPlural.INSTANCE.applyTo(s);
     }
 }

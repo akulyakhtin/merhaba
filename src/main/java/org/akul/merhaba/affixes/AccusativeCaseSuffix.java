@@ -1,4 +1,4 @@
-package org.akul.merhaba.affıxes;
+package org.akul.merhaba.affixes;
 
 import org.akul.merhaba.alphabet.Vowels;
 import org.akul.merhaba.harmony.MajorVowelHarmony;

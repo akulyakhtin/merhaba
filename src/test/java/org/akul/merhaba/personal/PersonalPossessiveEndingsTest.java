@@ -31,4 +31,9 @@ public class PersonalPossessiveEndingsTest {
         assertEquals("çerçevisi", his("çerçevi"));
         assertEquals("kaynaması", his("kaynama"));
     }
+
+    @Test
+    public void testOur() {
+        assertEquals("odamız", our("oda"));
+    }
 }

@@ -1,7 +1,7 @@
 package org.akul.merhaba.personal;
 
-import org.akul.merhaba.affıxes.AccusativeCaseSuffix;
-import org.akul.merhaba.affıxes.PossessivePersonalPronounSuffix;
+import org.akul.merhaba.affixes.AccusativeCaseSuffix;
+import org.akul.merhaba.affixes.PossessivePersonalPronounSuffix;
 import org.akul.merhaba.alphabet.Consonants;
 import org.akul.merhaba.alphabet.Vowels;
 import org.akul.merhaba.harmony.MajorVowelHarmony;

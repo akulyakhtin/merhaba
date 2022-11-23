@@ -1,4 +1,4 @@
-package org.akul.merhaba.affıxes;
+package org.akul.merhaba.affixes;
 
 import org.akul.merhaba.harmony.MajorVowelHarmony;
 import org.akul.merhaba.personal.PossessivePersonalPronouns;
@@ -14,9 +14,9 @@ public class PossessivePersonalPronounSuffix {
             case THEIR:
                 return "";
             case OUR:
-                return "M" + MajorVowelHarmony.SYMBOL + "Z";
+                return "m" + MajorVowelHarmony.SYMBOL + "z";
             case YOUR:
-                return "N" + MajorVowelHarmony.SYMBOL + "Z";
+                return "n" + MajorVowelHarmony.SYMBOL + "z";
             default:
                 throw new IllegalArgumentException();
         }
