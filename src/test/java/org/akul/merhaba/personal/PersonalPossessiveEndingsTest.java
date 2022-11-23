@@ -16,7 +16,7 @@ public class PersonalPossessiveEndingsTest {
     }
 
     @Test
-    public void testYour() {
+    public void testYou1() {
         assertEquals("kalemin", your1("kalem"));
         assertEquals("fıncanın", your1("fıncan"));
         assertEquals("kedin", your1("kedi"));
@@ -35,5 +35,15 @@ public class PersonalPossessiveEndingsTest {
     @Test
     public void testOur() {
         assertEquals("odamız", our("oda"));
+    }
+
+    @Test
+    public void testYour() {
+        assertEquals("komşunuz", your("komşu"));
+    }
+
+    @Test
+    public void testTheirs() {
+        assertEquals("kitabı", theirs("kitap"));
     }
 }
